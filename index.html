@@ -1,0 +1,1394 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+  <link rel="stylesheet" href="/css/reset.css" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/modal.css" />
+  <link rel="icon" type="image/x-icon" href="/assets/icon.ico" />
+  <title>AIVELA HOMEY</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="overlay"></div>
+    <header class="header">
+      <div class="container__header">
+        <div class="header__inner">
+          <div class="header__info-box blur">
+            <div class="header__logo">
+              <a href="/">
+                <img src="/assets/logo.svg" alt="логотип AIVELA HOMEY" />
+              </a>
+            </div>
+            <div class="header__contact-box">
+              <a href="tel:7 (495) 550-51-51" class="header__phone contacts">7 (495) 550-51-51</a>
+              <a href="mailto:aivela@gmail.com" class="header__mail contacts">aivela@gmail.com</a>
+            </div>
+            <div class="burger">
+              <span></span>
+            </div>
+          </div>
+          <nav class="header__menu">
+            <ul class="header__menu-list">
+              <li class="header__menu-item menu__item">
+                <a href="#about" class="header__menu-link"> О нас </a>
+              </li>
+              <li class="header__menu-item menu__item">
+                <a href="/pages/projects.html" class="header__menu-link"> Проекты </a>
+              </li>
+              <li class="header__menu-item menu__item">
+                <a href="#stages" class="header__menu-link"> Этапы работы </a>
+              </li>
+              <li class="header__menu-item menu__item">
+                <a href="#feedback" class="header__menu-link"> Отзывы </a>
+              </li>
+            </ul>
+            <div class="header__social-box blur box-menu">
+              <ul class="header__social-list">
+                <li class="header__social-item">
+                  <a href="#" class="header__social-link">
+                    <img src="/assets/tg.svg" alt="телеграм компании" />
+                  </a>
+                </li>
+                <li class="header__social-item">
+                  <a href="#" class="header__social-link">
+                    <img src="/assets/WhatsApp.svg" alt="WhatsApp компании" />
+                  </a>
+                </li>
+                <li class="header__social-item">
+                  <a href="#" class="header__social-link">
+                    <img src="/assets/yt.svg" alt="ютуб компании" />
+                  </a>
+                </li>
+              </ul>
+              <div class="header__social-btnBox">
+                <button type="button" class="header__social-btn button__consultation--open">
+                  Оставить заявку
+                </button>
+              </div>
+            </div>
+          </nav>
+          <div class="header__social-box blur">
+            <ul class="header__social-list">
+              <li class="header__social-item">
+                <a href="#" class="header__social-link">
+                  <img src="/assets/tg.svg" alt="телеграм компании" />
+                </a>
+              </li>
+              <li class="header__social-item">
+                <a href="#" class="header__social-link">
+                  <img src="/assets/WhatsApp.svg" alt="WhatsApp компании" />
+                </a>
+              </li>
+              <li class="header__social-item">
+                <a href="#" class="header__social-link">
+                  <img src="/assets/yt.svg" alt="ютуб компании" />
+                </a>
+              </li>
+            </ul>
+            <div class="header__social-btnBox">
+              <button type="button" class="header__social-btn button__consultation--open">
+                Оставить заявку
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="main__hero">
+        <div class="container">
+          <div class="hero__inner">
+            <div class="hero__info">
+              <p class="hero__info-description">
+                Мы проектируем уют, продумывая каждую деталь и шаг, чтобы ваш
+                дом стал отражением вас самих
+              </p>
+              <div class="hero__info-btnBox">
+                <button type="button" class="hero__info-btn button button__consultation--open">
+                  Оставить заявку
+                </button>
+              </div>
+            </div>
+            <h1 class="hero__title">AIVELA HOMEY</h1>
+            <button type="button" class="hero__info-btn hero__btn-mobile button button__consultation--open">
+              Оставить заявку
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="main__about" id="about">
+        <div class="container">
+          <div class="about__inner">
+            <div class="about__gallery">
+              <p class="about__title">О компании</p>
+              <ul class="about__gallery-list">
+                <li class="about__gallery-item">
+                  <a href="./assets/about_gallery1-big.jpg" data-fancybox="about-gallery"
+                    data-caption="Тубочка нашего производства">
+                    <img class="about__gallery-img" src="./assets/about_gallery1.jpg"
+                      alt="Тубочка нашего производства" />
+                  </a>
+                </li>
+                <li class="about__gallery-item">
+                  <a href="./assets/about_gallery2-big.jpg" data-fancybox="about-gallery"
+                    data-caption="Тубочка нашего производства">
+                    <img class="about__gallery-img" src="./assets/about_gallery2.jpg"
+                      alt="Тубочка нашего производства" />
+                  </a>
+                </li>
+                <li class="about__gallery-item">
+                  <a href="./assets/about_gallery3-big.jpg" data-fancybox="about-gallery"
+                    data-caption="Тубочка нашего производства">
+                    <img class="about__gallery-img" src="./assets/about_gallery3.jpg"
+                      alt="Тубочка нашего производства" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="about__description">
+              <h2 class="about__description-title">
+                Мебель, созданная с вниманием к вам
+              </h2>
+              <p class="about__description-text">
+                С 2020 года AIVELA HOMEY создаёт мебель на заказ, в которой
+                сочетаются дизайн, функциональность и душевный комфорт. Мы
+                знаем, что идеальный интерьер начинается с понимания человека,
+                для которого он создаётся. Поэтому уделяем внимание каждой
+                детали — от первых чертежей до установки готовых изделий.
+              </p>
+              <p class="about__description-text">
+                Наша команда работает по принципу полного сопровождения:
+                обсуждаем идеи, согласовываем каждый этап и реализуем всё
+                точно в срок. Мы используем качественные и безопасные
+                материалы, чтобы ваша мебель не только выглядела безупречно,
+                но и служила долгие годы.
+              </p>
+              <p class="about__description-text about__description-text--last">
+                AIVELA HOMEY — это про доверие, заботу и индивидуальный
+                подход. Мы создаём пространства, в которых хочется жить,
+                работать и проводить время с семьёй.
+              </p>
+              <div class="about__description-btnBox">
+                <button type="button" class="about__description-btn button button__consultation--open">
+                  Оставить заявку
+                </button>
+              </div>
+            </div>
+            <div class="about__gallery-main">
+              <img class="about__gallery-main--img" src="./assets/about_gallery4.jpg"
+                alt="Огромный раздвижной шкаф от нашей компании" />
+            </div>
+            <div class="about__gallery-main--mobile">
+              <img class="about__gallery-main--img" src="./assets/about_gallery4.jpg"
+                alt="Огромный раздвижной шкаф от нашей компании" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="main__feature">
+        <div class="container">
+          <div class="feature__inner">
+            <ul class="feature__list">
+              <li class="feature__item">
+                <p class="feature__number">01.</p>
+                <div class="feature__title">
+                  <span>Индивидуальные</span> решения
+                </div>
+                <div class="feature__description">
+                  Мебель, созданная под ваше пространство и стиль.
+                </div>
+              </li>
+              <li class="feature__item">
+                <p class="feature__number">02.</p>
+                <div class="feature__title">
+                  <span>Прозрачность</span> на каждом этапе
+                </div>
+                <div class="feature__description">
+                  Вы в курсе всех этапов работы над вашим заказом.
+                </div>
+              </li>
+              <li class="feature__item">
+                <p class="feature__number">03.</p>
+                <div class="feature__title"><span>Комфорт</span> и уют</div>
+                <div class="feature__description">
+                  Интерьер, в котором приятно жить каждый день.
+                </div>
+              </li>
+              <li class="feature__item">
+                <p class="feature__number">04.</p>
+                <div class="feature__title">
+                  Безупречное <span>качество</span>
+                </div>
+                <div class="feature__description">
+                  Надёжные материалы и точность исполнения.
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="main__projects">
+        <div class="container">
+          <div class="projects__inner">
+            <div class="projects__head">
+              <div class="projects__head-info">
+                <h3 class="projects__head-title">
+                  Ваши идеи — наша реализация
+                </h3>
+                <p class="projects__head-description">
+                  Посмотрите, как мы воплощаем индивидуальные запросы клиентов
+                  — от идеи до готового интерьера.
+                </p>
+              </div>
+              <div class="projects__head-linkBox">
+                <a href="/pages/projects.html" class="projects__head-link"> Все проекты </a>
+              </div>
+            </div>
+            <div class="projects__body">
+              <div class="row__up">
+                <div class="row__up-left ">
+                  <div class="rows__head">
+                    <a href="#" class="project__card"
+                      data-full-description="Общая толщина фасада — 27 мм. В стандартном ассортименте представлены глухие фасады, открытые, закрытые и декоративные витрины, а также фасады с имитацией единой рамки.">
+                      <img src="/assets/up_compact.png" alt="Шкаф Вельвет на заказ"
+                        class="row__up-img--compact compact" />
+                      <div class="projects__btnBox">
+                        <button type="button" class="projects__btn"></button>
+                      </div>
+                    </a>
+                  </div>
+                  <h4 class="projects__body-title">ВЕЛЬВЕТ</h4>
+                  <p class="projects__body-description compact__description">
+                    Общая толщина фасада — 27 мм. В стандартном ассортименте
+                    представлены глухие фасады, открытые, закрытые и
+                    декоративные витрины, а также фасады с имитацией единой
+                    рамки.
+                  </p>
+                </div>
+                <div class="row__up-right">
+                  <div class="rows__head">
+                    <a href="#" class="project__card"
+                      data-full-description="Общая толщина фасада — 27 мм. В стандартном ассортименте представлены глухие фасады, открытые, закрытые и декоративные витрины, а также фасады с имитацией единой рамки.">
+                      <img src="/assets/up__fascade.png" alt="Навесная тумба Порту на заказ" class="row__up-img" />
+                      <div class="projects__btnBox">
+                        <button type="button" class="projects__btn"></button>
+                      </div>
+                    </a>
+                  </div>
+                  <h4 class="projects__body-title">ПОРТУ</h4>
+                  <p class="projects__body-description projects__body-description--big">
+                    Общая толщина фасада — 27 мм. В стандартном ассортименте
+                    представлены глухие фасады, открытые, закрытые и
+                    декоративные витрины, а также фасады с имитацией единой
+                    рамки.
+                  </p>
+                </div>
+              </div>
+              <div class="row__middle">
+                <div class="row__middle-left">
+                  <div class="rows__head">
+                    <a href="#" class="project__card"
+                      data-full-description="Общая толщина фасада — 27 мм. В стандартном ассортименте представлены глухие фасады, открытые, закрытые и декоративные витрины, а также фасады с имитацией единой рамки.">
+                      <img src="/assets/middle_left.png" alt="полки на рабочий стол БРЮНЕТ на заказ"
+                        class="row__middle-img--compact compact" />
+                      <div class="projects__btnBox">
+                        <button type="button" class="projects__btn"></button>
+                      </div>
+                    </a>
+                  </div>
+                  <h4 class="projects__body-title compact__description">
+                    БРЮНЕТ
+                  </h4>
+                  <p class="projects__body-description compact__description">
+                    Общая толщина фасада — 27 мм. В стандартном ассортименте
+                    представлены глухие фасады, открытые, закрытые и
+                    декоративные витрины, а также фасады с имитацией единой
+                    рамки.
+                  </p>
+                </div>
+                <div class="row__middle-right">
+                  <div class="row__middle-right-first">
+                    <div class="rows__head">
+                      <a href="#" class="project__card"
+                        data-full-description="Общая толщина фасада — 27 мм. В стандартном ассортименте представлены глухие фасады, открытые, закрытые и декоративные витрины, а также фасады с имитацией единой рамки.">
+                        <img src="/assets/middle_right1.png" alt="Шкаф Бари на заказ"
+                          class="row__middle-img--compact compact" />
+                        <div class="projects__btnBox">
+                          <button type="button" class="projects__btn"></button>
+                        </div>
+                      </a>
+                    </div>
+                    <h4 class="projects__body-title">БАРИ '22</h4>
+                    <p class="projects__body-description compact__description">
+                      Общая толщина фасада — 27 мм. В стандартном ассортименте
+                      представлены глухие фасады, открытые, закрытые и
+                      декоративные витрины, а также фасады с имитацией единой
+                      рамки.
+                    </p>
+                  </div>
+                  <div class="row__middle-right-second">
+                    <div class="rows__head">
+                      <a href="#" class="project__card"
+                        data-full-description="Общая толщина фасада — 27 мм. В стандартном ассортименте представлены глухие фасады, открытые, закрытые и декоративные витрины, а также фасады с имитацией единой рамки.">
+                        <img src="/assets/middle_right2.png" alt="Кухня Дублик на заказ"
+                          class="row__middle-img--compact compact" />
+                        <div class="projects__btnBox">
+                          <button type="button" class="projects__btn"></button>
+                        </div>
+                      </a>
+                    </div>
+                    <h4 class="projects__body-title">ДУБЛИН</h4>
+                    <p class="projects__body-description compact__description">
+                      Общая толщина фасада — 27 мм. В стандартном ассортименте
+                      представлены глухие фасады, открытые, закрытые и
+                      декоративные витрины, а также фасады с имитацией единой
+                      рамки.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="row__down">
+                <div class="row__down-left">
+                  <div class="rows__head">
+                    <a href="#" class="project__card"
+                      data-full-description="Общая толщина фасада — 27 мм. В стандартном ассортименте представлены глухие фасады, открытые, закрытые и декоративные витрины, а также фасады с имитацией единой рамки.">
+                      <img src="/assets/down__left.png" alt="Столешница Валетта на заказ" class="row__down-img row__down-img-left" />
+                      <div class="projects__btnBox">
+                        <button type="button" class="projects__btn"></button>
+                      </div>
+                    </a>
+                  </div>
+                  <h4 class="projects__body-title">ВАЛЕТТА</h4>
+                  <p class="projects__body-description projects__body-description--big">
+                    Общая толщина фасада — 27 мм. В стандартном ассортименте
+                    представлены глухие фасады, открытые, закрытые и
+                    декоративные витрины, а также фасады с имитацией единой
+                    рамки.
+                  </p>
+                </div>
+                <div class="row__down-right">
+                  <div class="rows__head">
+                    <a href="#" class="project__card"
+                      data-full-description="Общая толщина фасада — 27 мм. В стандартном ассортименте представлены глухие фасады, открытые, закрытые и декоративные витрины, а также фасады с имитацией единой рамки.">
+                      <img src="/assets/down_right.png" alt="Шкаф Мемфис на заказ" class="row__down-img compact" />
+                      <div class="projects__btnBox">
+                        <button type="button" class="projects__btn"></button>
+                      </div>
+                    </a>
+                  </div>
+                  <h4 class="projects__body-title">МЕМФИС</h4>
+                  <p class="projects__body-description compact__description">
+                    Общая толщина фасада — 27 мм. В стандартном ассортименте
+                    представлены глухие фасады, открытые, закрытые и
+                    декоративные витрины, а также фасады с имитацией единой
+                    рамки.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="main__stages" id="stages">
+        <div class="container">
+          <div class="stages__inner">
+            <div class="stages__head-info">
+              <h5 class="stages__title">
+                Как проходит <span>работа с AIVELA HOMEY</span>
+              </h5>
+              <p class="stages__description">
+                Мы выстроили процесс так, чтобы вам было удобно на каждом
+                этапе — вы всегда в курсе хода проекта и уверены в результате.
+              </p>
+            </div>
+            <div class="swiper stages__swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper stages__swiper-wrapper">
+                <div class="swiper-slide stages__swiper-slide">
+                  <div class="stages__slide-head">
+                    <div class="stages__slide-head-imgBox">
+                      <img src="./assets/consultation.png" alt="Консультация с нашим менеджером" />
+                    </div>
+                    <p class="stages__slide-head-number">01.</p>
+                  </div>
+                  <div class="stages__slide-title">
+                    Консультация с дизайнером
+                  </div>
+                  <p class="stages__slide-description">
+                    Кобсуждаем ваши пожелания, стиль и функциональность
+                    будущей мебели.
+                  </p>
+                </div>
+                <div class="swiper-slide stages__swiper-slide">
+                  <div class="stages__slide-head">
+                    <div class="stages__slide-head-imgBox">
+                      <img src="./assets/tape.png" alt="Выезд нашего замерщика" />
+                    </div>
+                    <p class="stages__slide-head-number">02.</p>
+                  </div>
+                  <div class="stages__slide-title">Выезд замерщика</div>
+                  <p class="stages__slide-description">
+                    Специалист точно измеряет пространство и фиксирует все
+                    детали.
+                  </p>
+                </div>
+                <div class="swiper-slide stages__swiper-slide">
+                  <div class="stages__slide-head">
+                    <div class="stages__slide-head-imgBox">
+                      <img src="./assets/plan.png" alt="Создание проекта" />
+                    </div>
+                    <p class="stages__slide-head-number">03.</p>
+                  </div>
+                  <div class="stages__slide-title">Создание проекта</div>
+                  <p class="stages__slide-description">
+                    Подготавливаем визуализацию и утверждаем материалы.
+                  </p>
+                </div>
+                <div class="swiper-slide stages__swiper-slide">
+                  <div class="stages__slide-head">
+                    <div class="stages__slide-head-imgBox">
+                      <img src="./assets/start.png" alt="Подписание договора" />
+                    </div>
+                    <p class="stages__slide-head-number">04.</p>
+                  </div>
+                  <div class="stages__slide-title">Договор</div>
+                  <p class="stages__slide-description">
+                    Фиксируем сроки, стоимость и приступаем к производству.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="main__discussion">
+        <div class="container">
+          <div class="discussion__inner">
+            <div class="discussion__title">AIVELA HOMEY</div>
+            <div class="discussion__order-box">
+              <div class="discussion__order-title">
+                Хотите обсудить свой проект?
+              </div>
+              <div class="discussion__order-description">
+                Оставьте контакты — мы свяжемся с вами, чтобы уточнить детали
+                и рассчитать стоимость.
+              </div>
+              <form class="discussion__form">
+                <div class="form__group">
+                  <input name="name" type="text" placeholder="Имя" class="form__group-input" required />
+                  <span class="validation__mistake"></span>
+                  <div class="form__group-star">*</div>
+                </div>
+                <div class="form__group">
+                  <input name="city" type="text" placeholder="Город" class="form__group-input" required />
+                  <span class="validation__mistake"></span>
+                  <div class="form__group-star">*</div>
+                </div>
+                <div class="form__group">
+                  <input id="input__phone" name="phone" type="tel" placeholder="Номер телефона"
+                    class="form__group-input" required />
+                  <span class="validation__mistake"></span>
+                  <div class="form__group-star">*</div>
+                </div>
+                <div class="form__group-checkbox">
+                  <input name="checkbox" type="checkbox" class="form__group--checkbox" required />
+                  <span class="validation__mistake"></span>
+                  <p class="form__group-input--checkboxText">
+                    Я соглашаюсь на обработку персональных данных и принимаю
+                    условия
+                    <a href="#" class="form__group-link">политики обработки персональных данных</a>
+                  </p>
+                </div>
+              </form>
+              <div class="discussion__btnBox">
+                <button type="submit" class="discussion__btn button">
+                  Оставить заявку
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="main__feedback" id="feedback">
+        <div class="container">
+          <div class="feedback__inner">
+            <div class="feedback__head">
+              <h6 class="feedback__head-title">Отзывы наших клиентов</h6>
+              <div class="feedback__head-text">
+                Нам доверяют сотни клиентов
+              </div>
+            </div>
+            <div class="swiper feedback__swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper feedback__swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide feedback__slide">
+                  <div class="feedback__slide-head">
+                    <div class="feedback__slide-icon">
+                      <img src="./assets/icon_head.svg" alt="Иконка пользователя" />
+                    </div>
+                    <div class="feedback__slide-infoBox">
+                      <p class="feedback__slide-title">Мария Михайловна</p>
+                      <p class="feedback__slide-date">16.05.2025</p>
+                    </div>
+                    <ul class="feedback__slide-rate">
+                      <li class="feedback__slide-rate-item">
+                        <svg class="feedback__rate" width="14" height="13" viewBox="0 0 14 13" fill="none"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8.8305 4.14031L13.0278 4.47054C13.4737 4.50563 13.6527 5.06386 13.3103 5.35173L10.1196 8.03393L11.0976 12.0573C11.2024 12.4885 10.7353 12.8324 10.3546 12.6042L6.74463 10.4403L3.13461 12.6042C2.75398 12.8324 2.28688 12.4885 2.39169 12.0573L3.36963 8.03393L0.178979 5.35173C-0.163456 5.06386 0.0155389 4.50563 0.461504 4.47054L4.65876 4.14031L6.28426 0.304968C6.45655 -0.10155 7.0327 -0.10155 7.20499 0.304968L8.8305 4.14031Z"
+                            fill="gray" />
+                        </svg>
+                      </li>
+                      <li class="feedback__slide-rate-item">
+                        <svg class="feedback__rate feedback__rate--active" width="14" height="13" viewBox="0 0 14 13"
+                          fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8.8305 4.14031L13.0278 4.47054C13.4737 4.50563 13.6527 5.06386 13.3103 5.35173L10.1196 8.03393L11.0976 12.0573C11.2024 12.4885 10.7353 12.8324 10.3546 12.6042L6.74463 10.4403L3.13461 12.6042C2.75398 12.8324 2.28688 12.4885 2.39169 12.0573L3.36963 8.03393L0.178979 5.35173C-0.163456 5.06386 0.0155389 4.50563 0.461504 4.47054L4.65876 4.14031L6.28426 0.304968C6.45655 -0.10155 7.0327 -0.10155 7.20499 0.304968L8.8305 4.14031Z"
+                            fill="gray" />
+                        </svg>
+                      </li>
+                      <li class="feedback__slide-rate-item">
+                        <svg class="feedback__rate" width="14" height="13" viewBox="0 0 14 13" fill="none"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8.8305 4.14031L13.0278 4.47054C13.4737 4.50563 13.6527 5.06386 13.3103 5.35173L10.1196 8.03393L11.0976 12.0573C11.2024 12.4885 10.7353 12.8324 10.3546 12.6042L6.74463 10.4403L3.13461 12.6042C2.75398 12.8324 2.28688 12.4885 2.39169 12.0573L3.36963 8.03393L0.178979 5.35173C-0.163456 5.06386 0.0155389 4.50563 0.461504 4.47054L4.65876 4.14031L6.28426 0.304968C6.45655 -0.10155 7.0327 -0.10155 7.20499 0.304968L8.8305 4.14031Z"
+                            fill="gray" />
+                        </svg>
+                      </li>
+                      <li class="feedback__slide-rate-item">
+                        <svg class="feedback__rate feedback__rate--active" width="14" height="13" viewBox="0 0 14 13"
+                          fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8.8305 4.14031L13.0278 4.47054C13.4737 4.50563 13.6527 5.06386 13.3103 5.35173L10.1196 8.03393L11.0976 12.0573C11.2024 12.4885 10.7353 12.8324 10.3546 12.6042L6.74463 10.4403L3.13461 12.6042C2.75398 12.8324 2.28688 12.4885 2.39169 12.0573L3.36963 8.03393L0.178979 5.35173C-0.163456 5.06386 0.0155389 4.50563 0.461504 4.47054L4.65876 4.14031L6.28426 0.304968C6.45655 -0.10155 7.0327 -0.10155 7.20499 0.304968L8.8305 4.14031Z"
+                            fill="gray" />
+                        </svg>
+                      </li>
+                      <li class="feedback__slide-rate-item">
+                        <svg class="feedback__rate feedback__rate--active" width="14" height="13" viewBox="0 0 14 13"
+                          fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8.8305 4.14031L13.0278 4.47054C13.4737 4.50563 13.6527 5.06386 13.3103 5.35173L10.1196 8.03393L11.0976 12.0573C11.2024 12.4885 10.7353 12.8324 10.3546 12.6042L6.74463 10.4403L3.13461 12.6042C2.75398 12.8324 2.28688 12.4885 2.39169 12.0573L3.36963 8.03393L0.178979 5.35173C-0.163456 5.06386 0.0155389 4.50563 0.461504 4.47054L4.65876 4.14031L6.28426 0.304968C6.45655 -0.10155 7.0327 -0.10155 7.20499 0.304968L8.8305 4.14031Z"
+                            fill="gray" />
+                        </svg>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="feedback__slide-desciption">
+                    Очень довольна результатом! Команда AIVELA HOMEY помогла
+                    продумать всё до мелочей — от планировки до выбора
+                    материалов.
+                  </div>
+                  <button type="button" class="feedback__slide-more" data-feedback-full>
+                    Смотреть полностью
+                  </button>
+                  <ul class="feedback__slide-gallery">
+                    <li class="feedback__slide-gallery-item">
+                      <a href="./assets/feedback__gallery1-big.jpg" data-fancybox="feedback-gallery"
+                        data-caption="Шкаф нашего производства">
+                        <img src="./assets/feedback__gallery1.jpg" alt="шкаф нашего производства" />
+                        <div class="feedback__slide-eye">
+                          <img src="./assets/eye.svg" alt="глазок" />
+                        </div>
+                      </a>
+                    </li>
+                    <li class="feedback__slide-gallery-item">
+                      <a href="./assets/feedback__gallery2-big.jpg" data-fancybox="feedback-gallery"
+                        data-caption="Шкаф нашего производства">
+                        <img src="./assets/feedback__gallery2.jpg" alt="шкаф нашего производства" />
+                        <div class="feedback__slide-eye">
+                          <img src="./assets/eye.svg" alt="глазок" />
+                        </div>
+                      </a>
+                    </li>
+                    <li class="feedback__slide-gallery-item">
+                      <a href="./assets/feedback__gallery3-big.jpg" data-fancybox="feedback-gallery"
+                        data-caption="Шкаф нашего производства">
+                        <img src="./assets/feedback__gallery3.jpg" alt="шкаф нашего производства" />
+                        <div class="feedback__slide-eye">
+                          <img src="./assets/eye.svg" alt="глазок" />
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                  <p class="feedback__slide-place"># Гардеробная комната</p>
+                </div>
+                <div class="swiper-slide feedback__slide">
+                  <div class="feedback__slide-head">
+                    <div class="feedback__slide-icon">
+                      <img src="./assets/icon_head.svg" alt="Иконка пользователя" />
+                    </div>
+                    <div class="feedback__slide-infoBox">
+                      <p class="feedback__slide-title">Мария Михайловна</p>
+                      <p class="feedback__slide-date">16.05.2025</p>
+                    </div>
+                    <ul class="feedback__slide-rate">
+                      <li class="feedback__slide-rate-item">
+                        <svg class="feedback__rate feedback__rate--active" width="14" height="13" viewBox="0 0 14 13"
+                          fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8.8305 4.14031L13.0278 4.47054C13.4737 4.50563 13.6527 5.06386 13.3103 5.35173L10.1196 8.03393L11.0976 12.0573C11.2024 12.4885 10.7353 12.8324 10.3546 12.6042L6.74463 10.4403L3.13461 12.6042C2.75398 12.8324 2.28688 12.4885 2.39169 12.0573L3.36963 8.03393L0.178979 5.35173C-0.163456 5.06386 0.0155389 4.50563 0.461504 4.47054L4.65876 4.14031L6.28426 0.304968C6.45655 -0.10155 7.0327 -0.10155 7.20499 0.304968L8.8305 4.14031Z"
+                            fill="gray" />
+                        </svg>
+                      </li>
+                      <li class="feedback__slide-rate-item">
+                        <svg class="feedback__rate feedback__rate--active" width="14" height="13" viewBox="0 0 14 13"
+                          fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8.8305 4.14031L13.0278 4.47054C13.4737 4.50563 13.6527 5.06386 13.3103 5.35173L10.1196 8.03393L11.0976 12.0573C11.2024 12.4885 10.7353 12.8324 10.3546 12.6042L6.74463 10.4403L3.13461 12.6042C2.75398 12.8324 2.28688 12.4885 2.39169 12.0573L3.36963 8.03393L0.178979 5.35173C-0.163456 5.06386 0.0155389 4.50563 0.461504 4.47054L4.65876 4.14031L6.28426 0.304968C6.45655 -0.10155 7.0327 -0.10155 7.20499 0.304968L8.8305 4.14031Z"
+                            fill="gray" />
+                        </svg>
+                      </li>
+                      <li class="feedback__slide-rate-item">
+                        <svg class="feedback__rate feedback__rate--active" width="14" height="13" viewBox="0 0 14 13"
+                          fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8.8305 4.14031L13.0278 4.47054C13.4737 4.50563 13.6527 5.06386 13.3103 5.35173L10.1196 8.03393L11.0976 12.0573C11.2024 12.4885 10.7353 12.8324 10.3546 12.6042L6.74463 10.4403L3.13461 12.6042C2.75398 12.8324 2.28688 12.4885 2.39169 12.0573L3.36963 8.03393L0.178979 5.35173C-0.163456 5.06386 0.0155389 4.50563 0.461504 4.47054L4.65876 4.14031L6.28426 0.304968C6.45655 -0.10155 7.0327 -0.10155 7.20499 0.304968L8.8305 4.14031Z"
+                            fill="gray" />
+                        </svg>
+                      </li>
+                      <li class="feedback__slide-rate-item">
+                        <svg class="feedback__rate feedback__rate--active" width="14" height="13" viewBox="0 0 14 13"
+                          fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8.8305 4.14031L13.0278 4.47054C13.4737 4.50563 13.6527 5.06386 13.3103 5.35173L10.1196 8.03393L11.0976 12.0573C11.2024 12.4885 10.7353 12.8324 10.3546 12.6042L6.74463 10.4403L3.13461 12.6042C2.75398 12.8324 2.28688 12.4885 2.39169 12.0573L3.36963 8.03393L0.178979 5.35173C-0.163456 5.06386 0.0155389 4.50563 0.461504 4.47054L4.65876 4.14031L6.28426 0.304968C6.45655 -0.10155 7.0327 -0.10155 7.20499 0.304968L8.8305 4.14031Z"
+                            fill="gray" />
+                        </svg>
+                      </li>
+                      <li class="feedback__slide-rate-item">
+                        <svg class="feedback__rate feedback__rate--active" width="14" height="13" viewBox="0 0 14 13"
+                          fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8.8305 4.14031L13.0278 4.47054C13.4737 4.50563 13.6527 5.06386 13.3103 5.35173L10.1196 8.03393L11.0976 12.0573C11.2024 12.4885 10.7353 12.8324 10.3546 12.6042L6.74463 10.4403L3.13461 12.6042C2.75398 12.8324 2.28688 12.4885 2.39169 12.0573L3.36963 8.03393L0.178979 5.35173C-0.163456 5.06386 0.0155389 4.50563 0.461504 4.47054L4.65876 4.14031L6.28426 0.304968C6.45655 -0.10155 7.0327 -0.10155 7.20499 0.304968L8.8305 4.14031Z"
+                            fill="gray" />
+                        </svg>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="feedback__slide-desciption">
+                    Очень довольна результатом! Команда AIVELA HOMEY помогла
+                    продумать всё до мелочей — от планировки до выбора
+                    материалов. Всё сделали точно в срок, аккуратно и с учётом
+                    моих пожеланий. Теперь каждый раз, заходя в гардеробную,
+                    понимаю, что это именно то, о чём мечтала. Спасибо за
+                    профессионализм и внимание к деталям!
+                  </div>
+                  <button type="button" class="feedback__slide-more" data-feedback-full>
+                    Смотреть полностью
+                  </button>
+                  <ul class="feedback__slide-gallery">
+                    <li class="feedback__slide-gallery-item">
+                      <a href="./assets/feedback__gallery1-big.jpg" data-fancybox="feedback-gallery"
+                        data-caption="Шкаф нашего производства">
+                        <img src="./assets/feedback__gallery1.jpg" alt="шкаф нашего производства" />
+                        <div class="feedback__slide-eye">
+                          <img src="./assets/eye.svg" alt="глазок" />
+                        </div>
+                      </a>
+                    </li>
+                    <li class="feedback__slide-gallery-item">
+                      <a href="./assets/feedback__gallery2-big.jpg" data-fancybox="feedback-gallery"
+                        data-caption="Шкаф нашего производства">
+                        <img src="./assets/feedback__gallery2.jpg" alt="шкаф нашего производства" />
+                        <div class="feedback__slide-eye">
+                          <img src="./assets/eye.svg" alt="глазок" />
+                        </div>
+                      </a>
+                    </li>
+                    <li class="feedback__slide-gallery-item">
+                      <a href="./assets/feedback__gallery3-big.jpg" data-fancybox="feedback-gallery"
+                        data-caption="Шкаф нашего производства">
+                        <img src="./assets/feedback__gallery3.jpg" alt="шкаф нашего производства" />
+                        <div class="feedback__slide-eye">
+                          <img src="./assets/eye.svg" alt="глазок" />
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                  <p class="feedback__slide-place"># Гардеробная комната</p>
+                </div>
+                <div class="swiper-slide feedback__slide">
+                  <div class="feedback__slide-head">
+                    <div class="feedback__slide-icon">
+                      <img src="./assets/icon_head.svg" alt="Иконка пользователя" />
+                    </div>
+                    <div class="feedback__slide-infoBox">
+                      <p class="feedback__slide-title">Мария Михайловна</p>
+                      <p class="feedback__slide-date">16.05.2025</p>
+                    </div>
+                    <ul class="feedback__slide-rate">
+                      <li class="feedback__slide-rate-item">
+                        <svg class="feedback__rate" width="14" height="13" viewBox="0 0 14 13" fill="none"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8.8305 4.14031L13.0278 4.47054C13.4737 4.50563 13.6527 5.06386 13.3103 5.35173L10.1196 8.03393L11.0976 12.0573C11.2024 12.4885 10.7353 12.8324 10.3546 12.6042L6.74463 10.4403L3.13461 12.6042C2.75398 12.8324 2.28688 12.4885 2.39169 12.0573L3.36963 8.03393L0.178979 5.35173C-0.163456 5.06386 0.0155389 4.50563 0.461504 4.47054L4.65876 4.14031L6.28426 0.304968C6.45655 -0.10155 7.0327 -0.10155 7.20499 0.304968L8.8305 4.14031Z"
+                            fill="gray" />
+                        </svg>
+                      </li>
+                      <li class="feedback__slide-rate-item">
+                        <svg class="feedback__rate feedback__rate--active" width="14" height="13" viewBox="0 0 14 13"
+                          fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8.8305 4.14031L13.0278 4.47054C13.4737 4.50563 13.6527 5.06386 13.3103 5.35173L10.1196 8.03393L11.0976 12.0573C11.2024 12.4885 10.7353 12.8324 10.3546 12.6042L6.74463 10.4403L3.13461 12.6042C2.75398 12.8324 2.28688 12.4885 2.39169 12.0573L3.36963 8.03393L0.178979 5.35173C-0.163456 5.06386 0.0155389 4.50563 0.461504 4.47054L4.65876 4.14031L6.28426 0.304968C6.45655 -0.10155 7.0327 -0.10155 7.20499 0.304968L8.8305 4.14031Z"
+                            fill="gray" />
+                        </svg>
+                      </li>
+                      <li class="feedback__slide-rate-item">
+                        <svg class="feedback__rate" width="14" height="13" viewBox="0 0 14 13" fill="none"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8.8305 4.14031L13.0278 4.47054C13.4737 4.50563 13.6527 5.06386 13.3103 5.35173L10.1196 8.03393L11.0976 12.0573C11.2024 12.4885 10.7353 12.8324 10.3546 12.6042L6.74463 10.4403L3.13461 12.6042C2.75398 12.8324 2.28688 12.4885 2.39169 12.0573L3.36963 8.03393L0.178979 5.35173C-0.163456 5.06386 0.0155389 4.50563 0.461504 4.47054L4.65876 4.14031L6.28426 0.304968C6.45655 -0.10155 7.0327 -0.10155 7.20499 0.304968L8.8305 4.14031Z"
+                            fill="gray" />
+                        </svg>
+                      </li>
+                      <li class="feedback__slide-rate-item">
+                        <svg class="feedback__rate feedback__rate--active" width="14" height="13" viewBox="0 0 14 13"
+                          fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8.8305 4.14031L13.0278 4.47054C13.4737 4.50563 13.6527 5.06386 13.3103 5.35173L10.1196 8.03393L11.0976 12.0573C11.2024 12.4885 10.7353 12.8324 10.3546 12.6042L6.74463 10.4403L3.13461 12.6042C2.75398 12.8324 2.28688 12.4885 2.39169 12.0573L3.36963 8.03393L0.178979 5.35173C-0.163456 5.06386 0.0155389 4.50563 0.461504 4.47054L4.65876 4.14031L6.28426 0.304968C6.45655 -0.10155 7.0327 -0.10155 7.20499 0.304968L8.8305 4.14031Z"
+                            fill="gray" />
+                        </svg>
+                      </li>
+                      <li class="feedback__slide-rate-item">
+                        <svg class="feedback__rate feedback__rate--active" width="14" height="13" viewBox="0 0 14 13"
+                          fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8.8305 4.14031L13.0278 4.47054C13.4737 4.50563 13.6527 5.06386 13.3103 5.35173L10.1196 8.03393L11.0976 12.0573C11.2024 12.4885 10.7353 12.8324 10.3546 12.6042L6.74463 10.4403L3.13461 12.6042C2.75398 12.8324 2.28688 12.4885 2.39169 12.0573L3.36963 8.03393L0.178979 5.35173C-0.163456 5.06386 0.0155389 4.50563 0.461504 4.47054L4.65876 4.14031L6.28426 0.304968C6.45655 -0.10155 7.0327 -0.10155 7.20499 0.304968L8.8305 4.14031Z"
+                            fill="gray" />
+                        </svg>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="feedback__slide-desciption">
+                    Очень довольна результатом! Команда AIVELA HOMEY помогла
+                    продумать всё до мелочей — от планировки до выбора
+                    материалов.
+                  </div>
+                  <button type="button" class="feedback__slide-more" data-feedback-full>
+                    Смотреть полностью
+                  </button>
+                  <ul class="feedback__slide-gallery">
+                    <li class="feedback__slide-gallery-item">
+                      <a href="./assets/feedback__gallery1-big.jpg" data-fancybox="feedback-gallery"
+                        data-caption="Шкаф нашего производства">
+                        <img src="./assets/feedback__gallery1.jpg" alt="шкаф нашего производства" />
+                        <div class="feedback__slide-eye">
+                          <img src="./assets/eye.svg" alt="глазок" />
+                        </div>
+                      </a>
+                    </li>
+                    <li class="feedback__slide-gallery-item">
+                      <a href="./assets/feedback__gallery2-big.jpg" data-fancybox="feedback-gallery"
+                        data-caption="Шкаф нашего производства">
+                        <img src="./assets/feedback__gallery2.jpg" alt="шкаф нашего производства" />
+                        <div class="feedback__slide-eye">
+                          <img src="./assets/eye.svg" alt="глазок" />
+                        </div>
+                      </a>
+                    </li>
+                    <li class="feedback__slide-gallery-item">
+                      <a href="./assets/feedback__gallery3-big.jpg" data-fancybox="feedback-gallery"
+                        data-caption="Шкаф нашего производства">
+                        <img src="./assets/feedback__gallery3.jpg" alt="шкаф нашего производства" />
+                        <div class="feedback__slide-eye">
+                          <img src="./assets/eye.svg" alt="глазок" />
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                  <p class="feedback__slide-place"># Гардеробная комната</p>
+                </div>
+                <div class="swiper-slide feedback__slide">
+                  <div class="feedback__slide-head">
+                    <div class="feedback__slide-icon">
+                      <img src="./assets/icon_head.svg" alt="Иконка пользователя" />
+                    </div>
+                    <div class="feedback__slide-infoBox">
+                      <p class="feedback__slide-title">Мария Михайловна</p>
+                      <p class="feedback__slide-date">16.05.2025</p>
+                    </div>
+                    <ul class="feedback__slide-rate">
+                      <li class="feedback__slide-rate-item">
+                        <svg class="feedback__rate feedback__rate--active" width="14" height="13" viewBox="0 0 14 13"
+                          fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8.8305 4.14031L13.0278 4.47054C13.4737 4.50563 13.6527 5.06386 13.3103 5.35173L10.1196 8.03393L11.0976 12.0573C11.2024 12.4885 10.7353 12.8324 10.3546 12.6042L6.74463 10.4403L3.13461 12.6042C2.75398 12.8324 2.28688 12.4885 2.39169 12.0573L3.36963 8.03393L0.178979 5.35173C-0.163456 5.06386 0.0155389 4.50563 0.461504 4.47054L4.65876 4.14031L6.28426 0.304968C6.45655 -0.10155 7.0327 -0.10155 7.20499 0.304968L8.8305 4.14031Z"
+                            fill="gray" />
+                        </svg>
+                      </li>
+                      <li class="feedback__slide-rate-item">
+                        <svg class="feedback__rate feedback__rate--active" width="14" height="13" viewBox="0 0 14 13"
+                          fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8.8305 4.14031L13.0278 4.47054C13.4737 4.50563 13.6527 5.06386 13.3103 5.35173L10.1196 8.03393L11.0976 12.0573C11.2024 12.4885 10.7353 12.8324 10.3546 12.6042L6.74463 10.4403L3.13461 12.6042C2.75398 12.8324 2.28688 12.4885 2.39169 12.0573L3.36963 8.03393L0.178979 5.35173C-0.163456 5.06386 0.0155389 4.50563 0.461504 4.47054L4.65876 4.14031L6.28426 0.304968C6.45655 -0.10155 7.0327 -0.10155 7.20499 0.304968L8.8305 4.14031Z"
+                            fill="gray" />
+                        </svg>
+                      </li>
+                      <li class="feedback__slide-rate-item">
+                        <svg class="feedback__rate feedback__rate--active" width="14" height="13" viewBox="0 0 14 13"
+                          fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8.8305 4.14031L13.0278 4.47054C13.4737 4.50563 13.6527 5.06386 13.3103 5.35173L10.1196 8.03393L11.0976 12.0573C11.2024 12.4885 10.7353 12.8324 10.3546 12.6042L6.74463 10.4403L3.13461 12.6042C2.75398 12.8324 2.28688 12.4885 2.39169 12.0573L3.36963 8.03393L0.178979 5.35173C-0.163456 5.06386 0.0155389 4.50563 0.461504 4.47054L4.65876 4.14031L6.28426 0.304968C6.45655 -0.10155 7.0327 -0.10155 7.20499 0.304968L8.8305 4.14031Z"
+                            fill="gray" />
+                        </svg>
+                      </li>
+                      <li class="feedback__slide-rate-item">
+                        <svg class="feedback__rate feedback__rate--active" width="14" height="13" viewBox="0 0 14 13"
+                          fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8.8305 4.14031L13.0278 4.47054C13.4737 4.50563 13.6527 5.06386 13.3103 5.35173L10.1196 8.03393L11.0976 12.0573C11.2024 12.4885 10.7353 12.8324 10.3546 12.6042L6.74463 10.4403L3.13461 12.6042C2.75398 12.8324 2.28688 12.4885 2.39169 12.0573L3.36963 8.03393L0.178979 5.35173C-0.163456 5.06386 0.0155389 4.50563 0.461504 4.47054L4.65876 4.14031L6.28426 0.304968C6.45655 -0.10155 7.0327 -0.10155 7.20499 0.304968L8.8305 4.14031Z"
+                            fill="gray" />
+                        </svg>
+                      </li>
+                      <li class="feedback__slide-rate-item">
+                        <svg class="feedback__rate feedback__rate--active" width="14" height="13" viewBox="0 0 14 13"
+                          fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8.8305 4.14031L13.0278 4.47054C13.4737 4.50563 13.6527 5.06386 13.3103 5.35173L10.1196 8.03393L11.0976 12.0573C11.2024 12.4885 10.7353 12.8324 10.3546 12.6042L6.74463 10.4403L3.13461 12.6042C2.75398 12.8324 2.28688 12.4885 2.39169 12.0573L3.36963 8.03393L0.178979 5.35173C-0.163456 5.06386 0.0155389 4.50563 0.461504 4.47054L4.65876 4.14031L6.28426 0.304968C6.45655 -0.10155 7.0327 -0.10155 7.20499 0.304968L8.8305 4.14031Z"
+                            fill="gray" />
+                        </svg>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="feedback__slide-desciption">
+                    Очень довольна результатом! Команда AIVELA HOMEY помогла
+                    продумать всё до мелочей — от планировки до выбора
+                    материалов. Всё сделали точно в срок, аккуратно и с учётом
+                    моих пожеланий. Теперь каждый раз, заходя в гардеробную,
+                    понимаю, что это именно то, о чём мечтала. Спасибо за
+                    профессионализм и внимание к деталям!
+                  </div>
+                  <button type="button" class="feedback__slide-more" data-feedback-full>
+                    Смотреть полностью
+                  </button>
+                  <ul class="feedback__slide-gallery">
+                    <li class="feedback__slide-gallery-item">
+                      <a href="./assets/feedback__gallery1-big.jpg" data-fancybox="feedback-gallery"
+                        data-caption="Шкаф нашего производства">
+                        <img src="./assets/feedback__gallery1.jpg" alt="шкаф нашего производства" />
+                        <div class="feedback__slide-eye">
+                          <img src="./assets/eye.svg" alt="глазок" />
+                        </div>
+                      </a>
+                    </li>
+                    <li class="feedback__slide-gallery-item">
+                      <a href="./assets/feedback__gallery2-big.jpg" data-fancybox="feedback-gallery"
+                        data-caption="Шкаф нашего производства">
+                        <img src="./assets/feedback__gallery2.jpg" alt="шкаф нашего производства" />
+                        <div class="feedback__slide-eye">
+                          <img src="./assets/eye.svg" alt="глазок" />
+                        </div>
+                      </a>
+                    </li>
+                    <li class="feedback__slide-gallery-item">
+                      <a href="./assets/feedback__gallery3-big.jpg" data-fancybox="feedback-gallery"
+                        data-caption="Шкаф нашего производства">
+                        <img src="./assets/feedback__gallery3.jpg" alt="шкаф нашего производства" />
+                        <div class="feedback__slide-eye">
+                          <img src="./assets/eye.svg" alt="глазок" />
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                  <p class="feedback__slide-place"># Гардеробная комната</p>
+                </div>
+                <div class="swiper-slide feedback__slide">
+                  <div class="feedback__slide-head">
+                    <div class="feedback__slide-icon">
+                      <img src="./assets/icon_head.svg" alt="Иконка пользователя" />
+                    </div>
+                    <div class="feedback__slide-infoBox">
+                      <p class="feedback__slide-title">Мария Михайловна</p>
+                      <p class="feedback__slide-date">16.05.2025</p>
+                    </div>
+                    <ul class="feedback__slide-rate">
+                      <li class="feedback__slide-rate-item">
+                        <svg class="feedback__rate" width="14" height="13" viewBox="0 0 14 13" fill="none"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8.8305 4.14031L13.0278 4.47054C13.4737 4.50563 13.6527 5.06386 13.3103 5.35173L10.1196 8.03393L11.0976 12.0573C11.2024 12.4885 10.7353 12.8324 10.3546 12.6042L6.74463 10.4403L3.13461 12.6042C2.75398 12.8324 2.28688 12.4885 2.39169 12.0573L3.36963 8.03393L0.178979 5.35173C-0.163456 5.06386 0.0155389 4.50563 0.461504 4.47054L4.65876 4.14031L6.28426 0.304968C6.45655 -0.10155 7.0327 -0.10155 7.20499 0.304968L8.8305 4.14031Z"
+                            fill="gray" />
+                        </svg>
+                      </li>
+                      <li class="feedback__slide-rate-item">
+                        <svg class="feedback__rate feedback__rate--active" width="14" height="13" viewBox="0 0 14 13"
+                          fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8.8305 4.14031L13.0278 4.47054C13.4737 4.50563 13.6527 5.06386 13.3103 5.35173L10.1196 8.03393L11.0976 12.0573C11.2024 12.4885 10.7353 12.8324 10.3546 12.6042L6.74463 10.4403L3.13461 12.6042C2.75398 12.8324 2.28688 12.4885 2.39169 12.0573L3.36963 8.03393L0.178979 5.35173C-0.163456 5.06386 0.0155389 4.50563 0.461504 4.47054L4.65876 4.14031L6.28426 0.304968C6.45655 -0.10155 7.0327 -0.10155 7.20499 0.304968L8.8305 4.14031Z"
+                            fill="gray" />
+                        </svg>
+                      </li>
+                      <li class="feedback__slide-rate-item">
+                        <svg class="feedback__rate" width="14" height="13" viewBox="0 0 14 13" fill="none"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8.8305 4.14031L13.0278 4.47054C13.4737 4.50563 13.6527 5.06386 13.3103 5.35173L10.1196 8.03393L11.0976 12.0573C11.2024 12.4885 10.7353 12.8324 10.3546 12.6042L6.74463 10.4403L3.13461 12.6042C2.75398 12.8324 2.28688 12.4885 2.39169 12.0573L3.36963 8.03393L0.178979 5.35173C-0.163456 5.06386 0.0155389 4.50563 0.461504 4.47054L4.65876 4.14031L6.28426 0.304968C6.45655 -0.10155 7.0327 -0.10155 7.20499 0.304968L8.8305 4.14031Z"
+                            fill="gray" />
+                        </svg>
+                      </li>
+                      <li class="feedback__slide-rate-item">
+                        <svg class="feedback__rate feedback__rate--active" width="14" height="13" viewBox="0 0 14 13"
+                          fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8.8305 4.14031L13.0278 4.47054C13.4737 4.50563 13.6527 5.06386 13.3103 5.35173L10.1196 8.03393L11.0976 12.0573C11.2024 12.4885 10.7353 12.8324 10.3546 12.6042L6.74463 10.4403L3.13461 12.6042C2.75398 12.8324 2.28688 12.4885 2.39169 12.0573L3.36963 8.03393L0.178979 5.35173C-0.163456 5.06386 0.0155389 4.50563 0.461504 4.47054L4.65876 4.14031L6.28426 0.304968C6.45655 -0.10155 7.0327 -0.10155 7.20499 0.304968L8.8305 4.14031Z"
+                            fill="gray" />
+                        </svg>
+                      </li>
+                      <li class="feedback__slide-rate-item">
+                        <svg class="feedback__rate feedback__rate--active" width="14" height="13" viewBox="0 0 14 13"
+                          fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8.8305 4.14031L13.0278 4.47054C13.4737 4.50563 13.6527 5.06386 13.3103 5.35173L10.1196 8.03393L11.0976 12.0573C11.2024 12.4885 10.7353 12.8324 10.3546 12.6042L6.74463 10.4403L3.13461 12.6042C2.75398 12.8324 2.28688 12.4885 2.39169 12.0573L3.36963 8.03393L0.178979 5.35173C-0.163456 5.06386 0.0155389 4.50563 0.461504 4.47054L4.65876 4.14031L6.28426 0.304968C6.45655 -0.10155 7.0327 -0.10155 7.20499 0.304968L8.8305 4.14031Z"
+                            fill="gray" />
+                        </svg>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="feedback__slide-desciption">
+                    Очень довольна результатом! Команда AIVELA HOMEY помогла
+                    продумать всё до мелочей — от планировки до выбора
+                    материалов.
+                  </div>
+                  <button type="button" class="feedback__slide-more" data-feedback-full>
+                    Смотреть полностью
+                  </button>
+                  <ul class="feedback__slide-gallery">
+                    <li class="feedback__slide-gallery-item">
+                      <a href="./assets/feedback__gallery1-big.jpg" data-fancybox="feedback-gallery"
+                        data-caption="Шкаф нашего производства">
+                        <img src="./assets/feedback__gallery1.jpg" alt="шкаф нашего производства" />
+                        <div class="feedback__slide-eye">
+                          <img src="./assets/eye.svg" alt="глазок" />
+                        </div>
+                      </a>
+                    </li>
+                    <li class="feedback__slide-gallery-item">
+                      <a href="./assets/feedback__gallery2-big.jpg" data-fancybox="feedback-gallery"
+                        data-caption="Шкаф нашего производства">
+                        <img src="./assets/feedback__gallery2.jpg" alt="шкаф нашего производства" />
+                        <div class="feedback__slide-eye">
+                          <img src="./assets/eye.svg" alt="глазок" />
+                        </div>
+                      </a>
+                    </li>
+                    <li class="feedback__slide-gallery-item">
+                      <a href="./assets/feedback__gallery3-big.jpg" data-fancybox="feedback-gallery"
+                        data-caption="Шкаф нашего производства">
+                        <img src="./assets/feedback__gallery3.jpg" alt="шкаф нашего производства" />
+                        <div class="feedback__slide-eye">
+                          <img src="./assets/eye.svg" alt="глазок" />
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                  <p class="feedback__slide-place"># Гардеробная комната</p>
+                </div>
+                <div class="swiper-slide feedback__slide">
+                  <div class="feedback__slide-head">
+                    <div class="feedback__slide-icon">
+                      <img src="./assets/icon_head.svg" alt="Иконка пользователя" />
+                    </div>
+                    <div class="feedback__slide-infoBox">
+                      <p class="feedback__slide-title">Мария Михайловна</p>
+                      <p class="feedback__slide-date">16.05.2025</p>
+                    </div>
+                    <ul class="feedback__slide-rate">
+                      <li class="feedback__slide-rate-item">
+                        <svg class="feedback__rate feedback__rate--active" width="14" height="13" viewBox="0 0 14 13"
+                          fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8.8305 4.14031L13.0278 4.47054C13.4737 4.50563 13.6527 5.06386 13.3103 5.35173L10.1196 8.03393L11.0976 12.0573C11.2024 12.4885 10.7353 12.8324 10.3546 12.6042L6.74463 10.4403L3.13461 12.6042C2.75398 12.8324 2.28688 12.4885 2.39169 12.0573L3.36963 8.03393L0.178979 5.35173C-0.163456 5.06386 0.0155389 4.50563 0.461504 4.47054L4.65876 4.14031L6.28426 0.304968C6.45655 -0.10155 7.0327 -0.10155 7.20499 0.304968L8.8305 4.14031Z"
+                            fill="gray" />
+                        </svg>
+                      </li>
+                      <li class="feedback__slide-rate-item">
+                        <svg class="feedback__rate feedback__rate--active" width="14" height="13" viewBox="0 0 14 13"
+                          fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8.8305 4.14031L13.0278 4.47054C13.4737 4.50563 13.6527 5.06386 13.3103 5.35173L10.1196 8.03393L11.0976 12.0573C11.2024 12.4885 10.7353 12.8324 10.3546 12.6042L6.74463 10.4403L3.13461 12.6042C2.75398 12.8324 2.28688 12.4885 2.39169 12.0573L3.36963 8.03393L0.178979 5.35173C-0.163456 5.06386 0.0155389 4.50563 0.461504 4.47054L4.65876 4.14031L6.28426 0.304968C6.45655 -0.10155 7.0327 -0.10155 7.20499 0.304968L8.8305 4.14031Z"
+                            fill="gray" />
+                        </svg>
+                      </li>
+                      <li class="feedback__slide-rate-item">
+                        <svg class="feedback__rate feedback__rate--active" width="14" height="13" viewBox="0 0 14 13"
+                          fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8.8305 4.14031L13.0278 4.47054C13.4737 4.50563 13.6527 5.06386 13.3103 5.35173L10.1196 8.03393L11.0976 12.0573C11.2024 12.4885 10.7353 12.8324 10.3546 12.6042L6.74463 10.4403L3.13461 12.6042C2.75398 12.8324 2.28688 12.4885 2.39169 12.0573L3.36963 8.03393L0.178979 5.35173C-0.163456 5.06386 0.0155389 4.50563 0.461504 4.47054L4.65876 4.14031L6.28426 0.304968C6.45655 -0.10155 7.0327 -0.10155 7.20499 0.304968L8.8305 4.14031Z"
+                            fill="gray" />
+                        </svg>
+                      </li>
+                      <li class="feedback__slide-rate-item">
+                        <svg class="feedback__rate feedback__rate--active" width="14" height="13" viewBox="0 0 14 13"
+                          fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8.8305 4.14031L13.0278 4.47054C13.4737 4.50563 13.6527 5.06386 13.3103 5.35173L10.1196 8.03393L11.0976 12.0573C11.2024 12.4885 10.7353 12.8324 10.3546 12.6042L6.74463 10.4403L3.13461 12.6042C2.75398 12.8324 2.28688 12.4885 2.39169 12.0573L3.36963 8.03393L0.178979 5.35173C-0.163456 5.06386 0.0155389 4.50563 0.461504 4.47054L4.65876 4.14031L6.28426 0.304968C6.45655 -0.10155 7.0327 -0.10155 7.20499 0.304968L8.8305 4.14031Z"
+                            fill="gray" />
+                        </svg>
+                      </li>
+                      <li class="feedback__slide-rate-item">
+                        <svg class="feedback__rate feedback__rate--active" width="14" height="13" viewBox="0 0 14 13"
+                          fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8.8305 4.14031L13.0278 4.47054C13.4737 4.50563 13.6527 5.06386 13.3103 5.35173L10.1196 8.03393L11.0976 12.0573C11.2024 12.4885 10.7353 12.8324 10.3546 12.6042L6.74463 10.4403L3.13461 12.6042C2.75398 12.8324 2.28688 12.4885 2.39169 12.0573L3.36963 8.03393L0.178979 5.35173C-0.163456 5.06386 0.0155389 4.50563 0.461504 4.47054L4.65876 4.14031L6.28426 0.304968C6.45655 -0.10155 7.0327 -0.10155 7.20499 0.304968L8.8305 4.14031Z"
+                            fill="gray" />
+                        </svg>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="feedback__slide-desciption">
+                    Очень довольна результатом! Команда AIVELA HOMEY помогла
+                    продумать всё до мелочей — от планировки до выбора
+                    материалов. Всё сделали точно в срок, аккуратно и с учётом
+                    моих пожеланий. Теперь каждый раз, заходя в гардеробную,
+                    понимаю, что это именно то, о чём мечтала. Спасибо за
+                    профессионализм и внимание к деталям!
+                  </div>
+                  <button type="button" class="feedback__slide-more" data-feedback-full>
+                    Смотреть полностью
+                  </button>
+                  <ul class="feedback__slide-gallery">
+                    <li class="feedback__slide-gallery-item">
+                      <a href="./assets/feedback__gallery1-big.jpg" data-fancybox="feedback-gallery"
+                        data-caption="Шкаф нашего производства">
+                        <img src="./assets/feedback__gallery1.jpg" alt="шкаф нашего производства" />
+                        <div class="feedback__slide-eye">
+                          <img src="./assets/eye.svg" alt="глазок" />
+                        </div>
+                      </a>
+                    </li>
+                    <li class="feedback__slide-gallery-item">
+                      <a href="./assets/feedback__gallery2-big.jpg" data-fancybox="feedback-gallery"
+                        data-caption="Шкаф нашего производства">
+                        <img src="./assets/feedback__gallery2.jpg" alt="шкаф нашего производства" />
+                        <div class="feedback__slide-eye">
+                          <img src="./assets/eye.svg" alt="глазок" />
+                        </div>
+                      </a>
+                    </li>
+                    <li class="feedback__slide-gallery-item">
+                      <a href="./assets/feedback__gallery3-big.jpg" data-fancybox="feedback-gallery"
+                        data-caption="Шкаф нашего производства">
+                        <img src="./assets/feedback__gallery3.jpg" alt="шкаф нашего производства" />
+                        <div class="feedback__slide-eye">
+                          <img src="./assets/eye.svg" alt="глазок" />
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                  <p class="feedback__slide-place"># Гардеробная комната</p>
+                </div>
+              </div>
+            </div>
+            <div class="feedBack__btnsBox">
+              <button type="button" class="feedBack__btn button">
+                Оставить отзыв
+              </button>
+              <div class="feedback__swiper-buttonBox">
+                <div class="swiper-button-prev feedback__swiper-button-prev">
+                  <svg class="feedback__arrow-svg" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16.6667 10H3.33337M3.33337 10L8.33337 5M3.33337 10L8.33337 15" stroke="white"
+                      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </div>
+                <div class="feedback__swiper-progess">
+                  <span class="feedback__swiper-current">1</span>
+                  <div class="feedback__swiper-scrollbar">
+                    <div class="feedback__swiper-progress"></div>
+                  </div>
+                  <span class="feedback__swiper-total">4</span>
+                </div>
+                <div class="swiper-button-next feedback__swiper-button-next">
+                  <svg class="feedback__arrow-svg" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.33331 10H16.6666M16.6666 10L11.6666 5M16.6666 10L11.6666 15" stroke="white"
+                      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__head">
+            <div class="footer__head-contacts">
+              <a href="tel:7 (495) 550-51-51" class="footer__phone contacts__footer">7 (495) 550-51-51</a>
+              <a href="mailto:aivela@gmail.com" class="footer__mail contacts__footer">aivela@gmail.com</a>
+            </div>
+            <div class="footer__head-logoBox">
+              <a href="#" class="footer__head-logo">
+                <img src="./assets/footer__logo.png" alt="логотип нашей компании" />
+              </a>
+            </div>
+            <ul class="footer__social-list">
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-link">
+                  <img src="/assets/tg.svg" alt="телеграм компании" />
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-link">
+                  <img src="/assets/WhatsApp.svg" alt="WhatsApp компании" />
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-link">
+                  <img src="/assets/yt.svg" alt="ютуб компании" />
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__main-info">
+            <div class="footer__main-addressBox">
+              <a href="#" class="footer__main-address contacts__footer">
+                г. Москва, м. Петровско-Разумовская, Локомотивный проезд, д.
+                4,
+              </a>
+              <a href="#" class="footer__main-address contacts__footer">
+                ТЦ «Парус», 2-й этаж, пав. 207
+              </a>
+            </div>
+            <nav class="footer__menu">
+              <ul class="footer__menu-list">
+                <li class="footer__menu-item menu__item">
+                  <a href="#about" class="footer__menu-link"> О нас </a>
+                </li>
+                <li class="footer__menu-item menu__item">
+                  <a href="/pages/projects.html" class="footer__menu-link"> Проекты </a>
+                </li>
+                <li class="footer__menu-item menu__item">
+                  <a href="#stages" class="footer__menu-link"> Этапы работы </a>
+                </li>
+                <li class="footer__menu-item menu__item">
+                  <a href="#feedback" class="footer__menu-link"> Отзывы </a>
+                </li>
+              </ul>
+            </nav>
+            <div class="footer__modeBox">
+              <p class="footer__mode">
+                Режим работы: с 10:00 до 22:00 Call-центр
+              </p>
+              <p class="footer__mode footer__mode--mini">
+                ежедневно с 09:00 до 22:00 Доставка заказов вторник, четверг,
+                суббота
+              </p>
+            </div>
+          </div>
+          <div class="footer__politic">
+            <a href="#">Политика конфиденциальности</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="modal__consultation" id="consultation__modal">
+      <div class="overlay-modal"></div>
+      <div class="container__modal">
+        <button type="button" class="close__button"></button>
+        <div class="consultation__inner">
+          <div class="consultation__img-box">
+            <img src="/assets/consultation__modal.jpg" alt="Стул с тумбочкой нашего производства"
+              class="consultation__img">
+          </div>
+          <div class="consultation__main-info">
+            <p class="consultation__title">
+              Оставьте заявку на консультацию
+            </p>
+            <p class="consultation__description">
+              Получите консультацию и ответы
+              на все вопросы всего за пару минут
+            </p>
+            <form class="consultation__form">
+              <div class="consultation__form__group">
+                <input name="consultation-name" type="text" placeholder="Имя" class="consultation__form__group-input"
+                  required />
+                <span class="validation__mistake"></span>
+                <div class="consultation__form__group-star">*</div>
+              </div>
+              <div class="consultation__form__group">
+                <input name="consultation-city" type="text" placeholder="Город" class="consultation__form__group-input"
+                  required />
+                <span class="validation__mistake"></span>
+                <div class="consultation__form__group-star">*</div>
+              </div>
+              <div class="consultation__form__group">
+                <input id="input__phone" name="consultation-phone" type="tel" placeholder="Номер телефона"
+                  class="consultation__form__group-input" required />
+                <span class="validation__mistake"></span>
+                <div class="consultation__form__group-star">*</div>
+              </div>
+              <div class="consultation__form__group-checkbox">
+                <input name="checkbox" type="checkbox" class="consultation__form__group--checkbox" required />
+                <span class="validation__mistake"></span>
+                <p class="consultation__form__group-input--checkboxText">
+                  Я соглашаюсь на обработку персональных данных и принимаю
+                  условия
+                  <a href="#" class="form__group-link">политики обработки персональных данных</a>
+                </p>
+              </div>
+            </form>
+            <div class="consultation__btnBox">
+              <button type="submit" class="consultation__btn button" id="btn_btn-order">
+                Оставить заявку
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal__consultation-success">
+      <div class="overlay-modal-success"></div>
+      <div class="container__modal">
+        <button type="button" class="close__button close__button-success"></button>
+        <div class="success__inner">
+          <div class="success__imgBox">
+            <img src="/assets/success.png" alt="Успешно отправлен" class="success__img">
+          </div>
+          <div class="success__title">
+            Заявка отправлена
+          </div>
+          <div class="success__description">
+            Ваш заявка успешно принята, <br>
+            Наш менеджер свяжется с Вами в ближайшее время
+          </div>
+          <button type="button" class="success__btn button">
+            Закрыть
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="modal__feedback" id="feedback__modal">
+      <div class="overlay-modal"></div>
+      <div class="container__modal">
+        <button type="button" class="close__button close__button-feedback"></button>
+        <div class="feedback-modal__inner">
+          <div class="feedback-modal__head">
+            <div class="feedback-modal__user">
+              <div class="feedback-modal__icon">
+                <img src="./assets/icon_head.svg" alt="Иконка пользователя" id="modal-user-icon" />
+              </div>
+              <div class="feedback-modal__info">
+                <p class="feedback-modal__name" id="modal-user-name">Наталья Иванова</p>
+                <p class="feedback-modal__date" id="modal-date">16.05.2025</p>
+              </div>
+            </div>
+            <ul class="feedback-modal__rating" id="modal-rating">
+              <!-- Рейтинг будет заполняться через JS -->
+            </ul>
+          </div>
+          <div class="feedback-modal__content">
+            <div class="feedback-modal__text" id="modal-description">
+              <!-- Полный текст отзыва будет здесь -->
+            </div>
+            <ul class="feedback-modal__gallery" id="modal-gallery">
+              <!-- Галерея будет заполняться через JS -->
+            </ul>
+            <p class="feedback-modal__place" id="modal-place"># Гардеробная комната</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal__project" id="project__modal">
+      <div class="overlay-modal"></div>
+      <div class="container__modal">
+        <button type="button" class="close__button close__button-project"></button>
+        <div class="project-modal__inner">
+          <div class="project-modal__image">
+            <img src="" alt="" id="modal-project-img">
+          </div>
+          <div class="project-modal__content">
+            <h3 class="project-modal__title" id="modal-project-title"></h3>
+            <p class="project-modal__description" id="modal-project-description"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Модалка для оставить отзыв -->
+    <div class="modal__feedback-form" id="feedbackFormModal">
+      <div class="overlay-modal"></div>
+      <div class="container__modal">
+        <button type="button" class="close__button close__button-feedback-form"></button>
+        <div class="feedback-form__inner">
+          <h2 class="feedback-form__title">Оставьте Ваш комментарий</h2>
+
+          <form class="feedback-form">
+            <div class="feedback-form__group">
+              <input type="text" placeholder="Имя" class="feedback-form__input" required>
+              <div class="feedback-form__group-star">*</div> <!-- Исправлен класс -->
+            </div>
+
+            <div class="feedback-form__group">
+              <input type="tel" placeholder="Номер телефона" class="feedback-form__input" required>
+              <div class="feedback-form__group-star">*</div> <!-- Исправлен класс -->
+            </div>
+
+            <div class="feedback-form__group">
+              <textarea placeholder="Ваш комментарий" class="feedback-form__textarea" rows="4" required></textarea>
+              <div class="feedback-form__group-star">*</div> <!-- Исправлен класс -->
+            </div>
+
+            <div class="feedback-form__upload">
+              <label class="upload-label">
+                <input type="file" multiple accept=".jpg,.jpeg,.png" style="display: none;">
+                <span class="upload-button">Загрузить до 10 файлов JPEG или PNG до 10мб</span>
+              </label>
+              <div class="uploaded-files" id="uploaded-files"></div>
+            </div>
+
+            <div class="feedback-form__agree">
+              <input type="checkbox" class="feedback-form__agree-checkbox" required>
+              <span class="validation__mistake"></span>
+              <p class="feedback-form__agree-text">
+                Я соглашаюсь на обработку персональных данных и принимаю условия
+                <a href="#" class="feedback-form__agree-link">политики обработки персональных данных</a>
+              </p>
+            </div>
+
+            <button type="submit" class="feedback-form__submit button">Отправить</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="modal__feedback-success" id="feedbackSuccessModal">
+      <div class="overlay-modal-success"></div>
+      <div class="container__modal">
+        <button type="button" class="close__button close__button-success"></button>
+        <div class="success__inner">
+          <div class="success__imgBox">
+            <img src="/assets/success.png" alt="Успешно отправлен" class="success__img">
+          </div>
+          <div class="success__title">
+            Ваш комментарий добавлен
+          </div>
+          <button type="button" class="success__btn button" id="feedbackSuccessClose">
+            Закрыть
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  <script src="https://unpkg.com/imask"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+
+</html>
